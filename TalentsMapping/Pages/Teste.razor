@@ -1,0 +1,120 @@
+﻿@page "/Teste"
+
+<PageTitle>Faça seu Teste Vocacional</PageTitle>
+
+<h1>Faça o seu Teste Vocacional</h1>
+
+<MudPaper Class="pa-4">
+    <MudForm @ref="form">
+        @foreach (var pergunta in perguntas)
+        {
+            <MudItem>
+                <h3>@pergunta.texto</h3>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick='() => SelecionarResposta(pergunta.id, "a")'>
+                    @pergunta.respostas.a
+                </MudButton>
+                <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick='() => SelecionarResposta(pergunta.id, "b")'>
+                    @pergunta.respostas.b
+                </MudButton>
+
+
+            </MudItem>
+            <MudDivider Class="my-2" />
+        }
+
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SubmitTeste">
+            Enviar Teste
+        </MudButton>
+    </MudForm>
+</MudPaper>
+
+@code {
+    // Lista de perguntas com respostas
+    private List<Pergunta> perguntas = new List<Pergunta>
+    {
+        new Pergunta
+        {
+            id = 1,
+            texto = "Você prefere trabalhar em ambientes internos ou externos?",
+            respostas = new Respostas { a = "Internos", b = "Externos" }
+        },
+        new Pergunta
+        {
+            id = 2,
+            texto = "Você gosta mais de trabalhar com números ou com pessoas?",
+            respostas = new Respostas { a = "Números", b = "Pessoas" }
+        },
+        new Pergunta
+        {
+            id = 3,
+            texto = "Você se interessa por tecnologia e inovação?",
+            respostas = new Respostas { a = "Sim", b = "Não" }
+        },
+         new Pergunta
+        {
+            id = 4,
+            texto = "Você prefere atividades práticas ou teóricas?",
+            respostas = new Respostas { a = "Práticas", b = "Teóricas" }
+        },
+        new Pergunta
+        {
+            id = 5,
+            texto = "Você se vê trabalhando em um laboratório?",
+            respostas = new Respostas { a = "Sim", b = "Não" }
+        },
+    };
+
+    // Dicionário para armazenar respostas selecionadas pelo usuário
+    private Dictionary<int, string> respostasSelecionadas = new Dictionary<int, string>();
+
+    MudForm form;
+
+    // Função chamada ao selecionar uma resposta
+    private void SelecionarResposta(int perguntaId, string resposta)
+    {
+        if (respostasSelecionadas.ContainsKey(perguntaId))
+        {
+            respostasSelecionadas[perguntaId] = resposta;
+        }
+        else
+        {
+            respostasSelecionadas.Add(perguntaId, resposta);
+        }
+
+        Console.WriteLine($"Pergunta {perguntaId}: Resposta {resposta}");
+    }
+
+    // Função chamada ao enviar o teste
+    private async Task SubmitTeste()
+    {
+        if (form.IsValid)
+        {
+            // Lógica para processar as respostas
+            await Task.Run(() =>
+            {
+                foreach (var resposta in respostasSelecionadas)
+                {
+                    Console.WriteLine($"Pergunta {resposta.Key}: Resposta {resposta.Value}");
+                }
+            });
+        }
+        else
+        {
+            Console.WriteLine("Formulário incompleto!");
+        }
+    }
+
+    // Classes auxiliares para perguntas e respostas
+    public class Pergunta
+    {
+        public int id { get; set; }
+        public string texto { get; set; }
+        public Respostas respostas { get; set; } = new Respostas(); // Inicialização correta
+    }
+
+    public class Respostas
+    {
+        public string a { get; set; }
+        public string b { get; set; }
+    }
+}
