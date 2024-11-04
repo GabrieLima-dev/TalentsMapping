@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("be14c51a-aa5f-4764-977a-f3f3a34b744d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalentsMapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b221ecd64afbb8278f6f8b11b8500de899bd8e11")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalentsMapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalentsMapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

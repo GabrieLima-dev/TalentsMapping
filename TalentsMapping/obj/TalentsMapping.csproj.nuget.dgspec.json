@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\Box\\.UNINASSAU\\2024.2\\Projeto - TESTE VOCACIONAL\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\Box\\.UNINASSAU\\2024.2\\Projeto - TESTE VOCACIONAL\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Box\\.UNINASSAU\\2024.2\\Projeto - TESTE VOCACIONAL\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
         "projectName": "TalentsMapping",
-        "projectPath": "C:\\Users\\gabri\\Box\\.UNINASSAU\\2024.2\\Projeto - TESTE VOCACIONAL\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Box\\.UNINASSAU\\2024.2\\Projeto - TESTE VOCACIONAL\\TalentsMapping\\TalentsMapping\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,21 +55,47 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "MudBlazor": {
               "target": "Package",
               "version": "[7.8.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -86,7 +112,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.8, 8.0.8]"
+              "version": "[8.0.10, 8.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -94,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
