@@ -3,51 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\alternativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\alternativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\respostaalternativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\respostaalternativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\recomendacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\recomendacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,154 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\appsettings.json",
-              "RelativeDocumentMoniker": "MinhaApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\appsettings.json",
-              "RelativeToolTip": "MinhaApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T01:42:54.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs*",
-              "RelativeToolTip": "MinhaApi\\Data\\ApplicationDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:42:29.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Usuario.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:27.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Teste.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Teste.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Teste.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Teste.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Teste.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:26.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RespostaAlternativa.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\RespostaAlternativa.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\RespostaAlternativa.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\RespostaAlternativa.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\RespostaAlternativa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:24.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Resposta.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Resposta.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Resposta.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Resposta.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Resposta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:23.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Recomendacao.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Recomendacao.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Recomendacao.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Recomendacao.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Recomendacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:22.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Pergunta.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Pergunta.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Pergunta.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Pergunta.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Pergunta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:21.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Curso.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Curso.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Curso.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:11.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Alternativa.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Alternativa.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Models\\Alternativa.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Alternativa.cs",
-              "RelativeToolTip": "MinhaApi\\Models\\Alternativa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:39:03.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "ViewState": "AgIAAN0BAAAAAAAAAAAswOoBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-05T01:38:58.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs",
               "RelativeDocumentMoniker": "MinhaApi\\Program.cs",
               "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs",
               "RelativeToolTip": "MinhaApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:38:56.475Z"
+              "WhenOpened": "2024-11-05T02:19:18.088Z",
+              "EditorCaption": ""
             }
           ]
         }
