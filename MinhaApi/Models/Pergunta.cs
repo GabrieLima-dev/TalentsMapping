@@ -6,9 +6,11 @@ namespace MinhaApi.Models
     public class Pergunta
     {
         public int id_pergunta { get; set; }
-        public string TextoPergunta { get; set; }
+        public string texto_pergunta { get; set; }
 
-        public ICollection<Alternativa> Alternativas { get; set; } // Relação 1:N com Alternativa
+        public ICollection<Alternativa> Alternativa { get; set; } // Relação 1:N com Alternativa
+
+        // Adiciona a coleção de Respostas para representar o relacionamento com Resposta
+        public ICollection<Resposta> Respostas { get; set; } = new List<Resposta>();
     }
-
 }

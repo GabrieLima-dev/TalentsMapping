@@ -1,1 +1,73 @@
-﻿
+﻿@page "/cursos"
+@inject HttpClient Http
+
+<h3>Cursos</h3>
+
+<div class="mb-3">
+    <input type="text" placeholder="Digite o nome do curso para buscar" @bind="searchTerm" @oninput="BuscarCursos" class="form-control mb-2" />
+    <input type="number" placeholder="Digite a nota de corte mínima" @bind="minMediaCorte" @oninput="BuscarCursos" class="form-control" />
+</div>
+
+@if (cursos == null)
+{
+    <p>Carregando cursos...</p>
+}
+else if (cursos.Count == 0)
+{
+    <p>Nenhum curso encontrado.</p>
+}
+else
+{
+    <ul class="list-group">
+        @foreach (var curso in cursos)
+        {
+            <li class="list-group-item">
+                <h5>@curso.NomeCurso</h5>
+                <p>@curso.Descricao</p>
+                <p><strong>Tarefas diárias:</strong> @curso.TarefasDiarias</p>
+                <p><strong>Ambiente de trabalho:</strong> @curso.AmbienteTrabalho</p>
+                <p><strong>Faixa salarial:</strong> @curso.FaixaSalarial</p>
+                <p><strong>Média de corte:</strong> @curso.MediaCorte</p>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private string searchTerm = string.Empty;
+    private decimal? minMediaCorte;
+    private List<Curso> cursos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        cursos = await Http.GetFromJsonAsync<List<Curso>>("https://sua-api-no-render.com/api/Curso");
+    }
+
+    private async Task BuscarCursos()
+    {
+        var query = "https://sua-api-no-render.com/api/Curso?";
+
+        if (!string.IsNullOrWhiteSpace(searchTerm))
+        {
+            query += $"nome={searchTerm}&";
+        }
+
+        if (minMediaCorte.HasValue)
+        {
+            query += $"mediaCorte={minMediaCorte.Value}&";
+        }
+
+        cursos = await Http.GetFromJsonAsync<List<Curso>>(query.TrimEnd('&'));
+    }
+
+    private class Curso
+    {
+        public int IdCurso { get; set; }
+        public string NomeCurso { get; set; }
+        public string Descricao { get; set; }
+        public string TarefasDiarias { get; set; }
+        public string AmbienteTrabalho { get; set; }
+        public string FaixaSalarial { get; set; }
+        public decimal MediaCorte { get; set; }
+    }
+}

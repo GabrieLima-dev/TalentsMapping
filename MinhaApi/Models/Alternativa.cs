@@ -1,16 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MinhaApi.Models
 {
     public class Alternativa
     {
+        [Key]
         public int id_alternativa { get; set; } // id_alternativa
-        public int PerguntaId { get; set; } // FK para Pergunta
-        public string TextoAlternativa { get; set; }
-        public int Valor { get; set; }
+        public int id_pergunta { get; set; } // FK para Pergunta
+        public string texto_alternativa { get; set; }
+        public int valor { get; set; }
 
-        public Pergunta Pergunta { get; set; } // Navegação para Pergunta
+        public Pergunta pergunta { get; set; } // Navegação para Pergunta
+
+        // Adiciona a coleção de Respostas para representar o relacionamento
+        public ICollection<Resposta> Respostas { get; set; } = new List<Resposta>();
     }
-
 }

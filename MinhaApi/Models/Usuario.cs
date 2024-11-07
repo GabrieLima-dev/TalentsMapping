@@ -1,16 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MinhaApi.Models
 {
     public class Usuario
     {
-        public int id_usuario { get; set; } // id_usuario
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
-        public DateTime DataNascimento { get; set; }
+        public int id_usuario { get; set; }
 
-        public ICollection<Teste> Testes { get; set; } // Relação 1:N com Teste
+        [Required(ErrorMessage = "O campo Nome é obrigatório.")]
+        public string nome { get; set; }
+
+        [Required(ErrorMessage = "O campo Email é obrigatório.")]
+        public string email { get; set; }
+
+        public string senha { get; set; }
+        public DateTime? data_nascimento { get; set; }
+
+        // Propriedade de navegação
+        public ICollection<Teste> Testes { get; set; } = new List<Teste>();
     }
 }

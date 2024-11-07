@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\respostacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\respostacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\recomendacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\recomendacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\perguntacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\perguntacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\recomendacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\recomendacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\alternativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\alternativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\minhaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE72662-46C3-4DAD-9145-03A41A451D27}|MinhaApi\\MinhaApi.csproj|solutionrelative:minhaapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +67,170 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Program.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs",
-              "RelativeToolTip": "MinhaApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\UsuarioController.cs",
+              "RelativeToolTip": "MinhaApi\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:19:18.088Z",
+              "WhenOpened": "2024-11-07T16:59:42.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RespostaController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\RespostaController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\RespostaController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\RespostaController.cs",
+              "RelativeToolTip": "MinhaApi\\RespostaController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:58:53.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecomendacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\RecomendacaoController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\RecomendacaoController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\RecomendacaoController.cs",
+              "RelativeToolTip": "MinhaApi\\RecomendacaoController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:57:42.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PerguntaController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\PerguntaController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\PerguntaController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\PerguntaController.cs",
+              "RelativeToolTip": "MinhaApi\\PerguntaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:56:38.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\CursoController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\CursoController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\CursoController.cs",
+              "RelativeToolTip": "MinhaApi\\CursoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:55:20.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TesteController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\TesteController.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\TesteController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\TesteController.cs",
+              "RelativeToolTip": "MinhaApi\\TesteController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:51:45.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pergunta.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Pergunta.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Models\\Pergunta.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Pergunta.cs",
+              "RelativeToolTip": "MinhaApi\\Models\\Pergunta.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:47:12.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Models\\Curso.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Curso.cs",
+              "RelativeToolTip": "MinhaApi\\Models\\Curso.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:46:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Recomendacao.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Recomendacao.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Models\\Recomendacao.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Recomendacao.cs",
+              "RelativeToolTip": "MinhaApi\\Models\\Recomendacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:44:24.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alternativa.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Alternativa.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Models\\Alternativa.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Alternativa.cs",
+              "RelativeToolTip": "MinhaApi\\Models\\Alternativa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:37:46.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Usuario.cs",
+              "RelativeToolTip": "MinhaApi\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:14:23.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MinhaApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:13:48.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Teste.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Teste.cs",
+              "RelativeDocumentMoniker": "MinhaApi\\Models\\Teste.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Models\\Teste.cs",
+              "RelativeToolTip": "MinhaApi\\Models\\Teste.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:14:44.402Z",
               "EditorCaption": ""
             }
           ]
