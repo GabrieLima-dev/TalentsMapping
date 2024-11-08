@@ -10,7 +10,7 @@ namespace MinhaApi.Models
         public int id_alternativa { get; set; } // id_alternativa
         public int id_pergunta { get; set; } // FK para Pergunta
         public string texto_alternativa { get; set; }
-        public int valor { get; set; }
+        public string valor { get; set; }
 
         public Pergunta pergunta { get; set; } // Navegação para Pergunta
 

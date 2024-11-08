@@ -22,15 +22,23 @@ namespace MinhaApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Pergunta>>> GetPerguntas()
         {
-            return await _context.Perguntas.Include(p => p.Alternativas).ToListAsync();
+            // Inclui as alternativas relacionadas ao retornar as perguntas
+            return await _context.Perguntas.Include(p => p.Alternativa).ToListAsync();
         }
 
         // GET: api/Pergunta/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Pergunta>> GetPergunta(int id)
         {
-            var pergunta = await _context.Perguntas.Include(p => p.Alternativas).FirstOrDefaultAsync(p => p.id_pergunta == id);
-            if (pergunta == null) return NotFound();
+            // Inclui as alternativas relacionadas ao buscar uma pergunta específica
+            var pergunta = await _context.Perguntas.Include(p => p.Alternativa)
+                                                   .FirstOrDefaultAsync(p => p.id_pergunta == id);
+
+            if (pergunta == null)
+            {
+                return NotFound();
+            }
+
             return pergunta;
         }
 
@@ -38,16 +46,30 @@ namespace MinhaApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Pergunta>> PostPergunta(Pergunta pergunta)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _context.Perguntas.Add(pergunta);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("GetPergunta", new { id = pergunta.id_pergunta }, pergunta);
+
+            return CreatedAtAction(nameof(GetPergunta), new { id = pergunta.id_pergunta }, pergunta);
         }
 
         // PUT: api/Pergunta/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPergunta(int id, Pergunta pergunta)
         {
-            if (id != pergunta.id_pergunta) return BadRequest();
+            if (id != pergunta.id_pergunta)
+            {
+                return BadRequest("O ID da URL não corresponde ao ID do objeto Pergunta.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
             _context.Entry(pergunta).State = EntityState.Modified;
 
@@ -57,8 +79,14 @@ namespace MinhaApi.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PerguntaExists(id)) return NotFound();
-                else throw;
+                if (!PerguntaExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
             }
 
             return NoContent();
@@ -68,8 +96,11 @@ namespace MinhaApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePergunta(int id)
         {
-            var pergunta = await _context.Perguntas.FindAsync(id);
-            if (pergunta == null) return NotFound();
+            var pergunta = await _context.Perguntas.Include(p => p.Alternativa).FirstOrDefaultAsync(p => p.id_pergunta == id);
+            if (pergunta == null)
+            {
+                return NotFound();
+            }
 
             _context.Perguntas.Remove(pergunta);
             await _context.SaveChangesAsync();

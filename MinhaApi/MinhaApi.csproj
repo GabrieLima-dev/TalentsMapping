@@ -5,12 +5,17 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
-		<!-- Desativa a inclusão automática -->
-
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Include="CursoController.cs" />
+		<Compile Include="Controllers\CursoController.cs" />
+		<Compile Include="Controllers\PerguntaController.cs" />
+		<Compile Include="Controllers\RecomendacaoController.cs" />
+		<Compile Include="Controllers\RespostaController.cs" />
+		<Compile Include="Controllers\TesteController.cs" />
+		<Compile Include="Controllers\UsuarioController.cs" />
+		
+
 		<Compile Include="Data\ApplicationDbContext.cs" />
 		<Compile Include="Models\Usuario.cs" />
 		<Compile Include="Models\Teste.cs" />
@@ -20,12 +25,7 @@
 		<Compile Include="Models\Alternativa.cs" />
 		<Compile Include="Models\Resposta.cs" />
 		<Compile Include="Models\RespostaAlternativa.cs" />
-		<Compile Include="PerguntaController.cs" />
 		<Compile Include="Program.cs" />
-		<Compile Include="RecomendacaoController.cs" />
-		<Compile Include="RespostaController.cs" />
-		<Compile Include="TesteController.cs" />
-		<Compile Include="UsuarioController.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
