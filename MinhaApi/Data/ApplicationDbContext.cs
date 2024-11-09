@@ -43,8 +43,6 @@ namespace MinhaApi.Data
             modelBuilder.Entity<Curso>().HasKey(c => c.id_curso);
             modelBuilder.Entity<RespostaAlternativa>().HasKey(ra => new { ra.id_resposta, ra.id_alternativa });
 
-            // Configurações de relacionamentos
-
             // Relacionamento entre Usuario e Teste
             modelBuilder.Entity<Teste>()
                 .HasOne(t => t.Usuario)
@@ -65,12 +63,6 @@ namespace MinhaApi.Data
                 .WithMany(p => p.Respostas)
                 .HasForeignKey(r => r.id_pergunta);
 
-            // Relacionamento entre Resposta e Alternativa
-            modelBuilder.Entity<Resposta>()
-                .HasOne(r => r.Alternativa)
-                .WithMany(a => a.Respostas)
-                .HasForeignKey(r => r.id_alternativa);
-
             // Relacionamento entre Teste e Recomendacao
             modelBuilder.Entity<Recomendacao>()
                 .HasOne(r => r.Teste)
@@ -83,6 +75,19 @@ namespace MinhaApi.Data
                 .HasOne(r => r.Curso)
                 .WithMany(c => c.Recomendacoes)
                 .HasForeignKey(r => r.id_curso);
+
+            // Configuração da entidade de associação RespostaAlternativa
+            modelBuilder.Entity<RespostaAlternativa>()
+                .HasOne(ra => ra.Resposta)
+                .WithMany(r => r.RespostaAlternativas)
+                .HasForeignKey(ra => ra.id_resposta);
+
+            modelBuilder.Entity<RespostaAlternativa>()
+                .HasOne(ra => ra.Alternativa)
+                .WithMany(a => a.RespostaAlternativas)
+                .HasForeignKey(ra => ra.id_alternativa);
+
+
         }
     }
 }

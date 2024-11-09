@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace MinhaApi.Models
@@ -12,9 +11,10 @@ namespace MinhaApi.Models
         public string texto_alternativa { get; set; }
         public string valor { get; set; }
 
-        public Pergunta pergunta { get; set; } // Navegação para Pergunta
+        // Propriedade de navegação para a pergunta associada
+        public Pergunta Pergunta { get; set; }
 
-        // Adiciona a coleção de Respostas para representar o relacionamento
-        public ICollection<Resposta> Respostas { get; set; } = new List<Resposta>();
+        // Propriedade de navegação para RespostaAlternativas (muitos-para-muitos com Resposta)
+        public ICollection<RespostaAlternativa> RespostaAlternativas { get; set; } = new List<RespostaAlternativa>();
     }
 }

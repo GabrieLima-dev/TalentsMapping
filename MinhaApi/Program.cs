@@ -26,6 +26,13 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Aplicar migrações automaticamente ao iniciar
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate();
+}
+
 // Habilite o redirecionamento para HTTPS apenas em produção
 if (app.Environment.IsProduction())
 {
@@ -38,7 +45,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 

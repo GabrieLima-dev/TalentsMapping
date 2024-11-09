@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MinhaApi\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MinhaApi\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MinhaApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\talentsmapping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\talentsmapping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MinhaApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T01:18:43.38Z",
+              "Title": "TalentsMapping.csproj",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
+              "RelativeDocumentMoniker": "TalentsMapping\\TalentsMapping.csproj",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
+              "RelativeToolTip": "TalentsMapping\\TalentsMapping.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-09T13:19:35.785Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs",
-              "RelativeDocumentMoniker": "MinhaApi\\Program.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Program.cs",
-              "RelativeToolTip": "MinhaApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:51:59.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MinhaApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\MinhaApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MinhaApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-08T00:52:28.095Z"
             }
           ]
         }
