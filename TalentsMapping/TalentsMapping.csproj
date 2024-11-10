@@ -5,21 +5,17 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UserSecretsId>be14c51a-aa5f-4764-977a-f3f3a34b744d</UserSecretsId>
+		<RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<Compile Remove="ApplicationDbContext.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Content Remove="appsettings.json" />
-	</ItemGroup>
+	<!-- Remova ApplicationDbContext.cs e appsettings.json apenas se forem exclusivos do projeto da API -->
+	<!-- <Compile Remove="ApplicationDbContext.cs" /> -->
+	<!-- <Content Remove="appsettings.json" /> -->
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.8" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.8" PrivateAssets="all" />
 		<PackageReference Include="MudBlazor" Version="7.8.0" />
-		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -27,7 +23,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\MinhaApi\MinhaApi.csproj" />
+	  <Content Update="wwwroot\data\cursos.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="wwwroot\data\perguntas.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
 	</ItemGroup>
+
+	<!-- Remova esta referência se o `MinhaApi` for um projeto de API separado. -->
+	<!--<ItemGroup>
+		<ProjectReference Include="..\MinhaApi\MinhaApi.csproj" />
+	</ItemGroup>-->
 
 </Project>
