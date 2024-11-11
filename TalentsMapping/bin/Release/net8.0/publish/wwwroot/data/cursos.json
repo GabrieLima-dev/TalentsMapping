@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "texto": "Você prefere trabalhar com Lógica ou criatividade?",
+    "alternativas": [
+      {
+        "texto": "Lógica",
+        "valor": 1
+      },
+      {
+        "texto": "Criatividade",
+        "valor": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "texto": "Prefere trabalhar em equipe ou sozinho?",
+    "alternativas": [
+      {
+        "texto": "Em equipe",
+        "valor": 1
+      },
+      {
+        "texto": "Sozinho",
+        "valor": 2
+      }
+    ]
+  }
+]

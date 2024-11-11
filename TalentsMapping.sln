@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalentsMapping", "TalentsMapping\TalentsMapping.csproj", "{84E65214-2C2E-44B9-B537-6E871E347E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaApi", "MinhaApi\MinhaApi.csproj", "{0AE72662-46C3-4DAD-9145-03A41A451D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhaApi", "MinhaApi\MinhaApi.csproj", "{0AE72662-46C3-4DAD-9145-03A41A451D27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a1O4bOpHXlI=",
+  "dgSpecHash": "ZhtfV8T917s=",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\TalentsMapping.csproj",
   "expectedPackageFiles": [
@@ -35,8 +35,7 @@
     "C:\\Users\\gabri\\.nuget\\packages\\mudblazor\\7.8.0\\mudblazor.7.8.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\gabri\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.10.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

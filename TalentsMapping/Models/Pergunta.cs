@@ -2,8 +2,8 @@
 {
     public class Pergunta
     {
-        public int id { get; set; }
-        public string texto { get; set; }
-        public List<Alternativa> alternativas { get; set; }
+        public int Id { get; set; }
+        public string Texto { get; set; }
+        public List<Alternativa> Alternativas { get; set; }
     }
 }

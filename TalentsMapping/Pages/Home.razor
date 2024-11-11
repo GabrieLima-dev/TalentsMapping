@@ -1,22 +1,85 @@
-﻿@page "/"
+﻿@page "/home"
+
+@inject NavigationManager NavigationManager
 
 <PageTitle>TalentsMapping</PageTitle>
 
-<h1>Bem-vindo ao TalentsMapping!</h1>
+<style>
+    /* Configuração do layout para garantir que o footer fique no fim da página */
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
 
-<p>O TalentsMapping é um sistema inovador que ajuda alunos do ensino médio a descobrir os três principais cursos da <strong>UFS</strong> (Universidade Federal de Sergipe) que mais combinam com suas habilidades e interesses.</p>
+    main {
+        flex: 1;
+    }
 
-<p>Utilizamos um teste vocacional simples, composto por <strong>12 perguntas</strong>, para identificar os seus talentos e sugerir os melhores caminhos acadêmicos. Nosso objetivo é facilitar a sua escolha de curso, permitindo que você foque no que realmente importa: o seu futuro!</p>
+    footer {
+        text-align: center;
+        padding: 1px;
+        background-color: #f8f9fa;
+        color: #6c757d;
+        position: fixed;
+        bottom: 0;
+        width: 80%;
+    }
 
-<h2>Como Funciona?</h2>
-<ol>
-    <li>Responda às 12 perguntas do teste vocacional.</li>
-    <li>Descubra quais cursos da UFS se alinham com suas habilidades.</li>
-    <li>Receba orientações sobre os cursos e começe a sua jornada acadêmica!</li>
-</ol>
+    .top-right-icons {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+    }
+</style>
 
-<p>Está pronto para descobrir o seu caminho? <a href="/Teste">Clique aqui para começar o teste vocacional!</a></p>
+<div class="top-right-icons">
+    <MudIconButton Icon="@Icons.Material.Filled.ZoomIn" OnClick="AumentarFonte" Color="Color.Primary" Size="Size.Large" />
+    <MudIconButton Icon="@Icons.Material.Filled.ZoomOut" OnClick="DiminuirFonte" Color="Color.Primary" Size="Size.Large" />
+</div>
+
+<main style="font-size: @tamanhoFontePx;">
+    <h1>Bem-vindo(a) ao TalentsMapping!</h1>
+
+    <p>O TalentsMapping é um sistema inovador que ajuda alunos do ensino médio a descobrir os três principais cursos da <strong>UFS</strong> (Universidade Federal de Sergipe) que mais combinam com suas habilidades e interesses.</p>
+
+    <p>Utilizamos um teste vocacional simples, composto por <strong>12 perguntas</strong>, para identificar os seus talentos e sugerir os melhores caminhos acadêmicos. Nosso objetivo é facilitar a sua escolha de curso, permitindo que você foque no que realmente importa: o seu futuro!</p>
+
+    <h2>Como Funciona?</h2>
+    <ol>
+        <li>Responda às 12 perguntas do teste vocacional.</li>
+        <li>Descubra quais cursos da UFS se alinham com suas habilidades.</li>
+        <li>Receba orientações sobre os cursos e comece a sua jornada acadêmica!</li>
+    </ol>
+
+    <p>Está pronto para descobrir o seu caminho? <a href="/Teste">Clique aqui para começar o teste vocacional!</a></p>
+</main>
 
 <footer>
     <p>&copy; 2024 TalentsMapping - Todos os direitos reservados</p>
 </footer>
+
+@code {
+    private int tamanhoFonte = 20;
+
+    // Calcula o tamanho da fonte em pixels
+    private string tamanhoFontePx => $"{tamanhoFonte}px";
+
+    private void AumentarFonte()
+    {
+        if (tamanhoFonte < 24) // Limita o tamanho máximo
+        {
+            tamanhoFonte += 2;
+        }
+    }
+
+    private void DiminuirFonte()
+    {
+        if (tamanhoFonte > 20) // Limita o tamanho mínimo
+        {
+            tamanhoFonte -= 2;
+        }
+    }
+}

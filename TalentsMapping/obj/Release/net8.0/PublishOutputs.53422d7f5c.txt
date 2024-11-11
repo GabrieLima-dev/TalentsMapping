@@ -1,0 +1,2 @@
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Release\net8.0\publish\appsettings.json
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Release\net8.0\publish\web.config

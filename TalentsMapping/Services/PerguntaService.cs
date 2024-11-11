@@ -17,7 +17,15 @@ namespace TalentsMapping.Services
 
         public async Task<List<Pergunta>> GetPerguntasAsync()
         {
-            return await _httpClient.GetFromJsonAsync<List<Pergunta>>("data/perguntas.json");
+            try
+            {
+                return await _httpClient.GetFromJsonAsync<List<Pergunta>>("data/perguntas.json");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao carregar perguntas: {ex.Message}");
+                return new List<Pergunta>(); // Retorna uma lista vazia em caso de erro
+            }
         }
     }
 }

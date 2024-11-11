@@ -1,34 +1,74 @@
 ﻿@page "/cursos"
 @inject CursoService CursoService
 
-<h3>Cursos</h3>
-
-@if (cursos == null)
-{
-    <p>Carregando cursos...</p>
-}
-else
-{
-    <ul>
-        @foreach (var curso in cursos)
-        {
-            <li>
-                <h4>@curso.nome</h4>
-                <p>@curso.descricao</p>
-                <p>Tarefas Diárias: @curso.tarefas_diarias</p>
-                <p>Ambiente de Trabalho: @curso.ambiente_trabalho</p>
-                <p>Faixa Salarial: @string.Join(" - ", curso.faixa_salarial)</p>
-                <p>Média de Corte: @curso.media_corte</p>
-            </li>
-        }
-    </ul>
-}
+<MudDataGrid T="Curso" Items="@cursos" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
+    Hideable="true" RowClick="@RowClicked" SelectedItemsChanged="@SelectedItemsChanged">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Lista de Cursos</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="_searchString" Placeholder="Pesquisar" Adornment="Adornment.Start" Immediate="true"
+            AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <Columns>
+        <!-- Removido a coluna de ID -->
+        <PropertyColumn Property="x => x.nome" Title="Nome do Curso" />
+        <PropertyColumn Property="x => x.descricao" Title="Descrição" />
+        <PropertyColumn Property="x => x.tarefas_diarias" Title="Tarefas Diárias" />
+        <PropertyColumn Property="x => x.ambiente_trabalho" Title="Ambiente de Trabalho" />
+        <PropertyColumn Property="x => x.faixa_salarial" Title="Faixa Salarial" />
+        
+        <PropertyColumn Property="x => x.media_corte" Title="Nota de Corte Média" />
+    </Columns>
+    <PagerContent>
+        <MudDataGridPager T="Curso" />
+    </PagerContent>
+</MudDataGrid>
 
 @code {
-    private List<Curso> cursos;
+    private List<Curso> cursos = new List<Curso>();
+    private string _searchString;
+
+    // Filtro rápido para pesquisar globalmente em várias colunas
+    private Func<Curso, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.nome.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (x.descricao.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if ($"{x.tarefas_diarias} {x.ambiente_trabalho}".Contains(_searchString))
+            return true;
+
+        return false;
+    };
 
     protected override async Task OnInitializedAsync()
     {
         cursos = await CursoService.GetCursosAsync();
+        // foreach (var curso in cursos)
+        // {
+        //     Console.WriteLine($"Curso: {curso.nome}, Faixa Salarial: {curso.faixa_salarial}");
+        // }
+    }
+
+    // Método auxiliar para formatar a faixa salarial como uma string
+    private string FormatFaixaSalarial(string faixaSalarial)
+    {
+        return !string.IsNullOrEmpty(faixaSalarial) ? faixaSalarial : "N/A";
+    }
+
+    //Eventos (não será utilizado)
+    void RowClicked(DataGridRowClickEventArgs<Curso> args)
+    {
+        // Exemplo de log, mas não será mais utilizado
+    }
+
+    void SelectedItemsChanged(HashSet<Curso> items)
+    {
+        // Exemplo de log, mas não será mais utilizado
     }
 }
