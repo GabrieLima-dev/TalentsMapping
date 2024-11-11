@@ -10,6 +10,7 @@ namespace TalentsMapping.Services
     {
         private readonly LocalStorageService _localStorageService;
         private const string UsuariosKey = "usuarios";
+        private const string UsuarioLogadoKey = "usuarioLogado"; // Chave para o usuário logado
 
         public UsuarioService(LocalStorageService localStorageService)
         {
@@ -39,7 +40,35 @@ namespace TalentsMapping.Services
         public async Task<bool> FazerLoginAsync(string nome, string senha)
         {
             var usuarios = await GetUsuariosAsync();
-            return usuarios.Any(u => u.Nome == nome && u.Senha == senha);
+            var usuario = usuarios.FirstOrDefault(u => u.Nome == nome && u.Senha == senha);
+
+            if (usuario != null)
+            {
+                // Armazena o usuário logado no LocalStorage
+                var usuarioJson = JsonSerializer.Serialize(usuario);
+                await _localStorageService.SetItemAsync(UsuarioLogadoKey, usuarioJson);
+                return true;
+            }
+
+            return false;
+        }
+
+        // Método para obter o usuário logado
+        public async Task<Usuario> ObterUsuarioLogadoAsync()
+        {
+            var usuarioJson = await _localStorageService.GetItemAsync(UsuarioLogadoKey);
+            if (string.IsNullOrEmpty(usuarioJson))
+            {
+                return null;
+            }
+
+            return JsonSerializer.Deserialize<Usuario>(usuarioJson);
+        }
+
+        // Método para logout
+        public async Task FazerLogoutAsync()
+        {
+            await _localStorageService.RemoveItemAsync(UsuarioLogadoKey);
         }
 
         // Método para cadastrar um novo usuário

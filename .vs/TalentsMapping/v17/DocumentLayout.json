@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Layout\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "TalentsMapping\\Layout\\NavMenu.razor.css",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Layout\\NavMenu.razor.css",
-              "RelativeToolTip": "TalentsMapping\\Layout\\NavMenu.razor.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-11T03:19:29.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "TalentsMapping\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "TalentsMapping\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "TalentsMapping\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Pages\\Login.razor",
+              "RelativeToolTip": "TalentsMapping\\Pages\\Login.razor",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAK0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T03:17:46.852Z",
+              "WhenOpened": "2024-11-11T16:38:47.055Z",
               "EditorCaption": ""
             }
           ]

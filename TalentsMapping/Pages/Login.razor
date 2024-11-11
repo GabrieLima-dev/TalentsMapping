@@ -28,7 +28,7 @@
     }
 
     .logo {
-        width: 150px;
+        width: 200px;
         margin-bottom: 20px;
     }
 
@@ -60,7 +60,7 @@
     <MudIconButton Icon="@Icons.Material.Filled.ZoomOut" OnClick="DiminuirFonte" Color="Color.Primary" Size="Size.Large" />
 </div>
 
-<main class="login-container" style="font-size: @tamanhoFontePx;">
+<main class="login-container" style="font-size: @tamanhoFontePx; background: white">
     <!-- Logo TalentsMapping -->
     <img src="/logoTalentsMapping.png" alt="TalentsMapping Logo" class="logo" />
 
@@ -117,7 +117,7 @@
 
     private void AumentarFonte()
     {
-        if (tamanhoFonte < 24) // Limita o tamanho máximo
+        if (tamanhoFonte < 40) // Limita o tamanho máximo
         {
             tamanhoFonte += 2;
         }

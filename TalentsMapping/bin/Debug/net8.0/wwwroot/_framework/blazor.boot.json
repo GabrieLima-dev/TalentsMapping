@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TalentsMapping",
   "resources": {
-    "hash": "sha256-JDftx8pmaezu5NVqjLHs/UhmINabOV4Dh3Qdv8GzU6Q=",
+    "hash": "sha256-T1kUw10DtWRot6nXPaWWicg2Z34uzt5oHUm1ar0JUyQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.dttvpwtuld.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -211,10 +211,10 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "TalentsMapping.wasm": "sha256-UBgqgHz0WgigXYZB888jY5aMnygym+Jsfvt0Qy074rk="
+      "TalentsMapping.wasm": "sha256-eIawFJwOoxNoe0aDoayyDqrdqzUpYkPjq63Ol6i6zAI="
     },
     "pdb": {
-      "TalentsMapping.pdb": "sha256-HLVrgqnHT4YlIE7ZGiXldFPSqYOD4ukqykprobSRv7I="
+      "TalentsMapping.pdb": "sha256-LnRkfWY470ppfCLHTksYuEpDf3VPiuDSsj7C6pBZWPc="
     }
   },
   "cacheBootResources": true,
