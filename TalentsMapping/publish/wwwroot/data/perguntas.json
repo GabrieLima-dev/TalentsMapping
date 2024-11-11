@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "texto": "Você prefere trabalhar em ambientes internos ou externos?",
+    "alternativas": [
+      {
+        "texto": "Internos",
+        "valor": "a",
+        "cursos": ["Administração", "Ciência da Computação", "Direito", "Engenharia Civil", "Psicologia"]
+      },
+      {
+        "texto": "Externos",
+        "valor": "b",
+        "cursos": ["Agricultura e Biodiversidade", "Ecologia e Conservação", "Zootecnia"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "texto": "Você gosta mais de trabalhar com números ou com pessoas?",
+    "alternativas": [
+      {
+        "texto": "Números",
+        "valor": "a",
+        "cursos": ["Matemática", "Economia", "Engenharia Elétrica", "Ciência da Computação"]
+      },
+      {
+        "texto": "Pessoas",
+        "valor": "b",
+        "cursos": ["Psicologia", "Serviço Social", "Comunicação", "Direito"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "texto": "Você se interessa por tecnologia e inovação?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Ciência da Computação", "Engenharia Elétrica", "Biotecnologia"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["História", "Letras", "Filosofia"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "texto": "Você prefere atividades práticas ou teóricas?",
+    "alternativas": [
+      {
+        "texto": "Práticas",
+        "valor": "a",
+        "cursos": ["Engenharia Civil", "Odontologia", "Enfermagem"]
+      },
+      {
+        "texto": "Teóricas",
+        "valor": "b",
+        "cursos": ["Filosofia", "História", "Ciências da Religião"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "texto": "Você se vê trabalhando em um laboratório?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Química", "Biotecnologia", "Ciências Farmacêuticas"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["Direito", "Administração", "Comunicação"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "texto": "Você gosta de resolver problemas complexos?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Engenharia Química", "Ciência da Computação", "Matemática"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["Serviço Social", "Educação Física", "Letras"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "texto": "Você se interessa por questões ambientais?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Desenvolvimento e Meio Ambiente", "Ecologia e Conservação", "Engenharia e Ciências Ambientais"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["Administração", "Direito", "Economia"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "texto": "Você gosta de ler e interpretar textos?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Letras", "História", "Direito"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["Engenharia Civil", "Ciência da Computação", "Matemática"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "texto": "Você se interessa por saúde e bem-estar?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Enfermagem", "Ciências da Nutrição", "Educação Física"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["Administração", "Direito", "Engenharia Civil"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "texto": "Você gosta de estudar a história e a cultura das sociedades?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["História", "Antropologia", "Ciências da Religião"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["Engenharia Civil", "Ciência da Computação", "Matemática"]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "texto": "Você prefere trabalhar em equipe ou sozinho?",
+    "alternativas": [
+      {
+        "texto": "Em equipe",
+        "valor": "a",
+        "cursos": ["Administração", "Comunicação", "Serviço Social"]
+      },
+      {
+        "texto": "Sozinho",
+        "valor": "b",
+        "cursos": ["Matemática", "Ciência da Computação", "Filosofia"]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "texto": "Você se interessa por negócios e gestão?",
+    "alternativas": [
+      {
+        "texto": "Sim",
+        "valor": "a",
+        "cursos": ["Administração", "Economia", "Ciência da Propriedade Intelectual"]
+      },
+      {
+        "texto": "Não",
+        "valor": "b",
+        "cursos": ["História", "Letras", "Filosofia"]
+      }
+    ]
+  }
+]
