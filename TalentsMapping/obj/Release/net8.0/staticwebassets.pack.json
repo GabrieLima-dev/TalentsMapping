@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\data\\perguntas.json"
     },
     {
+      "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\data\\usuarios.json",
+      "PackagePath": "staticwebassets\\data\\usuarios.json"
+    },
+    {
       "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

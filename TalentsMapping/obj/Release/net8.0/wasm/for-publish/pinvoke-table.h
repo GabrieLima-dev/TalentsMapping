@@ -16,14 +16,12 @@ int GlobalizationNative_GetLocaleInfoGroupingSizes (int,int,int,int);
 int GlobalizationNative_GetLocaleInfoInt (int,int,int);
 int GlobalizationNative_GetLocaleInfoString (int,int,int,int,int);
 int GlobalizationNative_GetLocaleName (int,int,int);
-int GlobalizationNative_GetLocales (int,int);
 int GlobalizationNative_GetLocaleTimeFormat (int,int,int,int);
 int GlobalizationNative_GetSortHandle (int,int);
 int GlobalizationNative_GetSortKey (int,int,int,int,int,int);
 int GlobalizationNative_IndexOf (int,int,int,int,int,int,int);
 void GlobalizationNative_InitICUFunctions (int,int,int,int);
 void GlobalizationNative_InitOrdinalCasingPage (int,int);
-int GlobalizationNative_IsNormalized (int,int,int);
 int GlobalizationNative_IsPredefinedLocale (int);
 int GlobalizationNative_LastIndexOf (int,int,int,int,int,int,int);
 int GlobalizationNative_LoadICU ();
@@ -140,14 +138,12 @@ static PinvokeImport libSystem_Globalization_Native_imports [] = {
 {"GlobalizationNative_GetLocaleInfoInt", GlobalizationNative_GetLocaleInfoInt}, // System.Private.CoreLib
 {"GlobalizationNative_GetLocaleInfoString", GlobalizationNative_GetLocaleInfoString}, // System.Private.CoreLib
 {"GlobalizationNative_GetLocaleName", GlobalizationNative_GetLocaleName}, // System.Private.CoreLib
-{"GlobalizationNative_GetLocales", GlobalizationNative_GetLocales}, // System.Private.CoreLib
 {"GlobalizationNative_GetLocaleTimeFormat", GlobalizationNative_GetLocaleTimeFormat}, // System.Private.CoreLib
 {"GlobalizationNative_GetSortHandle", GlobalizationNative_GetSortHandle}, // System.Private.CoreLib
 {"GlobalizationNative_GetSortKey", GlobalizationNative_GetSortKey}, // System.Private.CoreLib
 {"GlobalizationNative_IndexOf", GlobalizationNative_IndexOf}, // System.Private.CoreLib
 {"GlobalizationNative_InitICUFunctions", GlobalizationNative_InitICUFunctions}, // System.Private.CoreLib
 {"GlobalizationNative_InitOrdinalCasingPage", GlobalizationNative_InitOrdinalCasingPage}, // System.Private.CoreLib
-{"GlobalizationNative_IsNormalized", GlobalizationNative_IsNormalized}, // System.Private.CoreLib
 {"GlobalizationNative_IsPredefinedLocale", GlobalizationNative_IsPredefinedLocale}, // System.Private.CoreLib
 {"GlobalizationNative_LastIndexOf", GlobalizationNative_LastIndexOf}, // System.Private.CoreLib
 {"GlobalizationNative_LoadICU", GlobalizationNative_LoadICU}, // System.Private.CoreLib

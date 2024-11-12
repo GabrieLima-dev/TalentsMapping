@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wJ109zxjOhch8m8GoZTpgqIEX8b4WPDHruwREADHG2g=",
+  "Hash": "rvldmzniLG8t51H0GeheYF4cpfFBe7saZytwYZMrSqw=",
   "Source": "TalentsMapping",
   "BasePath": "/",
   "Mode": "Root",
@@ -8052,6 +8052,25 @@
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\perguntas.json"
+    },
+    {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\data\\usuarios.json",
+      "SourceId": "TalentsMapping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/usuarios.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\usuarios.json"
     },
     {
       "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\favicon.png",

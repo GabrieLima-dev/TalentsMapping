@@ -1048,3 +1048,9 @@ C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\c
 C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\qc5pkvggmj.gz
 C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\e9fk0wvknf.gz
 C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\q4f82dkrg3.gz
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Debug\net8.0\publish\web.config
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Debug\net8.0\publish\wwwroot\data\cursos.json
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Debug\net8.0\publish\wwwroot\data\perguntas.json
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Debug\net8.0\publish\wwwroot\data\usuarios.json
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\bin\Debug\net8.0\publish\wwwroot\_framework\blazor.boot.json
