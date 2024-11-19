@@ -1,0 +1,78 @@
+﻿/* Fundo com imagem 3D */
+.background-details {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/background3d.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(4px);
+    opacity: 0.5;
+    z-index: -2;
+    pointer-events: none;
+}
+
+/* Configuração de layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-gradient);
+    color: var(--font-color);
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+main {
+    flex: 1;
+    position: relative;
+    margin-bottom: 4rem;
+    z-index: 1;
+}
+
+footer {
+    background-color: transparent; 
+    color: var(--footer-font-color); 
+    text-align: center;
+    padding: 1rem; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    z-index: 2; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: color 0.5s ease-in-out; 
+}
+
+.top-right-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    z-index: 2;
+    position: relative;
+}
+
+/* Variáveis de modo claro */
+:root {
+    --background-gradient: linear-gradient(135deg, #f5f5f5, #eaeaea); /* Fundo claro */
+    --font-color: #000000; /* Texto preto */
+    --footer-background: transparent; /* Fundo transparente */
+    --footer-font-color: #000000; /* Texto do rodapé claro */
+}
+
+/* Variáveis de modo escuro */
+.dark-mode {
+    --background-gradient: linear-gradient(135deg, #121212, #1f1f1f); /* Fundo escuro */
+    --font-color: #ffffff; /* Texto branco */
+    --footer-background: transparent; /* Fundo transparente */
+    --footer-font-color: #ffffff; /* Texto branco do rodapé */
+}

@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\22t66f6m7e.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
-    },
-    {
       "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TalentsMapping.styles.css",
       "PackagePath": "staticwebassets\\TalentsMapping.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\background3d.jpg",
+      "PackagePath": "staticwebassets\\background3d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
       "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\app.css",
@@ -51,6 +59,10 @@
     {
       "Id": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\logoTalentsMapping.png",
       "PackagePath": "staticwebassets\\logoTalentsMapping.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TalentsMapping.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TalentsMapping.Microsoft.AspNetCore.StaticWebAssets.props",

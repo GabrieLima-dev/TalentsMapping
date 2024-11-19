@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalentsMapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc195ae572416db5549bc6dac7a7e7168c70984")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d26101e1c1fed2deabcf5c73f00c8de0f6754c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalentsMapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalentsMapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

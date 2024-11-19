@@ -1,0 +1,138 @@
+﻿@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3);
+    }
+
+    100% {
+        box-shadow: 0 0 50px 15px rgba(255, 255, 255, 0.6);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Outros estilos */
+.top-right-icons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+    background: none;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--background-gradient);
+    transition: background 0.5s ease-in-out;
+    font-size: inherit;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+    animation: pulse 2s infinite;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.aura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    animation: glow 3s infinite alternate;
+    z-index: -1;
+    transition: background 0.5s ease-in-out;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    color: #6c757d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.floating-effect {
+    animation: float 5s ease-in-out infinite;
+}
+
+.background-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/background3d.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(4px);
+    opacity: 0.5;
+}
+
+/* Variáveis padrão */
+:root {
+    --background-gradient: linear-gradient(135deg, #1e3c72, #2a5298);
+    --aura-background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    --font-color: #000000; /* Preto padrão */
+}
+
+/* Modo noturno */
+.dark-mode {
+    --background-gradient: linear-gradient(135deg, #121212, #1f1f1f);
+    --aura-background: black; /* Fundo preto para .aura */
+    --font-color: white; /* Texto branco */
+}
+
+/* Aplicação dinâmica */
+.aura {
+    background: var(--aura-background);
+}
+
+body, .login-content {
+    color: var(--font-color);
+}

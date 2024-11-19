@@ -1,22 +1,23 @@
 ﻿@inherits LayoutComponentBase
-@* Required *@
+@inject IJSRuntime JSRuntime
+
+@* Providers necessários *@
 <MudThemeProvider />
 <MudPopoverProvider />
-
-@* Needed for dialogs *@
 <MudDialogProvider />
-
-@* Needed for snackbars *@
 <MudSnackbarProvider />
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
 
     <main>
-
         <article class="content px-4">
             @Body
         </article>
     </main>
 </div>
+
+@code {
+}

@@ -36,6 +36,13 @@ namespace TalentsMapping.Services
             return usuarios.Any(u => u.Nome == nome);
         }
 
+        // Método para verificar se a senha existe
+        public async Task<bool> VerificarSenhaExistenteAsync(string senha)
+        {
+            var usuarios = await GetUsuariosAsync();
+            return usuarios.Any(u => u.Senha == senha);
+        }
+
         // Método para login
         public async Task<bool> FazerLoginAsync(string nome, string senha)
         {

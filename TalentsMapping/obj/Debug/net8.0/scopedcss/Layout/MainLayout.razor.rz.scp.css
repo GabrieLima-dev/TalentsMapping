@@ -27,23 +27,23 @@ main[b-a3dn3mh2s4] {
         text-decoration: none;
     }
 
-    .top-row[b-a3dn3mh2s4]  a:hover, .top-row[b-a3dn3mh2s4]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-a3dn3mh2s4]  a:hover, .top-row[b-a3dn3mh2s4]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-a3dn3mh2s4]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-a3dn3mh2s4]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row[b-a3dn3mh2s4] {
         justify-content: space-between;
     }
 
-    .top-row[b-a3dn3mh2s4]  a, .top-row[b-a3dn3mh2s4]  .btn-link {
-        margin-left: 0;
-    }
+        .top-row[b-a3dn3mh2s4]  a, .top-row[b-a3dn3mh2s4]  .btn-link {
+            margin-left: 0;
+        }
 }
 
 @media (min-width: 641px) {
@@ -64,11 +64,11 @@ main[b-a3dn3mh2s4] {
         z-index: 1;
     }
 
-    .top-row.auth[b-a3dn3mh2s4]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-a3dn3mh2s4]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-a3dn3mh2s4], article[b-a3dn3mh2s4] {
         padding-left: 2rem !important;

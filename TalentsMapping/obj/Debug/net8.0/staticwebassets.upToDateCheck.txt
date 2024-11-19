@@ -1,0 +1,13 @@
+wwwroot\background3d.jpg
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\Home.css
+wwwroot\css\Login.css
+wwwroot\data\cursos.json
+wwwroot\data\perguntas.json
+wwwroot\data\usuarios.json
+wwwroot\favicon.png
+wwwroot\icon-192.png
+wwwroot\index.html
+wwwroot\logoTalentsMapping.png

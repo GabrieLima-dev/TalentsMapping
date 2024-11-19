@@ -1,44 +1,18 @@
 ﻿@page "/home"
-
 @inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
 
 <PageTitle>TalentsMapping</PageTitle>
 
-<style>
-    /* Configuração do layout para garantir que o footer fique no fim da página */
-    html, body {
-        height: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    main {
-        flex: 1;
-    }
-
-    footer {
-        text-align: center;
-        padding: 1px;
-        background-color: #f8f9fa;
-        color: #6c757d;
-        position: fixed;
-        bottom: 0;
-        width: 80%;
-    }
-
-    .top-right-icons {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 10;
-    }
-</style>
+<link rel="stylesheet" href="css/Home.css" />
 
 <div class="top-right-icons">
     <MudIconButton Icon="@Icons.Material.Filled.ZoomIn" OnClick="AumentarFonte" Color="Color.Primary" Size="Size.Large" />
     <MudIconButton Icon="@Icons.Material.Filled.ZoomOut" OnClick="DiminuirFonte" Color="Color.Primary" Size="Size.Large" />
+    <MudIconButton Icon="@darkModeIcon" OnClick="ToggleDarkMode" Color="Color.Primary" Size="Size.Large" />
 </div>
+
+<div class="background-details"></div>
 
 <main style="font-size: @tamanhoFontePx;">
     <h1>Bem-vindo(a) ao TalentsMapping!</h1>
@@ -63,9 +37,10 @@
 
 @code {
     private int tamanhoFonte = 20;
+    private bool isDarkMode = false;
 
-    // Calcula o tamanho da fonte em pixels
     private string tamanhoFontePx => $"{tamanhoFonte}px";
+    private string darkModeIcon => isDarkMode ? Icons.Material.Filled.DarkMode : Icons.Material.Filled.LightMode;
 
     private void AumentarFonte()
     {
@@ -81,5 +56,12 @@
         {
             tamanhoFonte -= 2;
         }
+    }
+
+    private async Task ToggleDarkMode()
+    {
+        isDarkMode = !isDarkMode;
+        var modeClass = isDarkMode ? "dark-mode" : string.Empty;
+        await JSRuntime.InvokeVoidAsync("document.documentElement.setAttribute", "class", modeClass);
     }
 }

@@ -1,111 +1,61 @@
 ﻿@page "/"
 @layout LoginLayout
 @inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
 @inject UsuarioService UsuarioService
 
 <PageTitle>Login - TalentsMapping</PageTitle>
-
-<style>
-    /* Configuração do layout para garantir que o footer fique no fim da página */
-    html, body {
-        height: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    main {
-        flex: 1;
-    }
-
-    .login-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        background: linear-gradient(135deg, #1e3c72, #2a5298); /* Fundo gradiente */
-    }
-
-    .logo {
-        width: 200px;
-        margin-bottom: 20px;
-    }
-
-    .login-content {
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 1px;
-        color: #6c757d;
-        position: fixed;
-        bottom: 0;
-        width: 80%;
-    }
-
-    .top-right-icons {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 10;
-    }
-</style>
+<link rel="stylesheet" href="css/Login.css" />
 
 <div class="top-right-icons">
+    <MudIconButton Icon="@darkModeIcon" OnClick="ToggleDarkMode" Color="Color.Primary" Size="Size.Large" />
     <MudIconButton Icon="@Icons.Material.Filled.ZoomIn" OnClick="AumentarFonte" Color="Color.Primary" Size="Size.Large" />
     <MudIconButton Icon="@Icons.Material.Filled.ZoomOut" OnClick="DiminuirFonte" Color="Color.Primary" Size="Size.Large" />
 </div>
 
-<main class="login-container" style="font-size: @tamanhoFontePx; background: white">
+<main class="login-container" style="font-size: @tamanhoFontePx;">
+    <div class="background-details"></div>
+
     <!-- Logo TalentsMapping -->
-    <img src="/logoTalentsMapping.png" alt="TalentsMapping Logo" class="logo" />
+    <img src="/logoTalentsMapping.png" alt="TalentsMapping Logo" class="logo floating-effect" />
 
     <!-- Conteúdo de Login e Inscrição -->
     <div class="login-content">
         <!-- Quadrado de Login -->
-        <MudPaper Elevation="10" Class="p-4" Style="width: 300px;">
+        <MudPaper Elevation="12" Class="p-4 floating-effect login-card">
+            <div class="aura"></div>
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
-            <MudTextField @bind-Value="usuarioLogin" Label="Nome de Usuário" Variant="Variant.Filled" FullWidth="true" />
-            <MudTextField @bind-Value="senhaLogin" Label="Senha" Variant="Variant.Filled" FullWidth="true" InputType="InputType.Password" />
+            <MudTextField @bind-Value="usuarioLogin" Label="Nome de Usuário" Variant="Variant.Outlined" FullWidth="true" Class="mb-3" />
+            <MudTextField @bind-Value="senhaLogin" Label="Senha" Variant="Variant.Outlined" FullWidth="true" InputType="InputType.Password" Class="mb-4" />
             <MudButton OnClick="FazerLogin" Color="Color.Primary" FullWidth="true" Class="mt-4">Entrar</MudButton>
             @if (!string.IsNullOrEmpty(mensagemErroLogin))
             {
-                <MudAlert Severity="Severity.Error" Class="mt-2">
-                    @mensagemErroLogin
-                </MudAlert>
+                <MudAlert Severity="Severity.Error" Class="mt-2">@mensagemErroLogin</MudAlert>
             }
         </MudPaper>
 
         <!-- Quadrado de Inscrição -->
-        <MudPaper Elevation="10" Class="p-4" Style="width: 300px;">
+        <MudPaper Elevation="12" Class="p-4 floating-effect login-card">
+            <div class="aura"></div>
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Inscrição</MudText>
-            <MudTextField @bind-Value="usuarioCadastro" Label="Nome de Usuário" Variant="Variant.Filled" FullWidth="true" />
-            <MudTextField @bind-Value="senhaCadastro" Label="Senha" Variant="Variant.Filled" FullWidth="true" InputType="InputType.Password" />
+            <MudTextField @bind-Value="usuarioCadastro" Label="Nome de Usuário" Variant="Variant.Outlined" FullWidth="true" Class="mb-3" />
+            <MudTextField @bind-Value="senhaCadastro" Label="Senha" Variant="Variant.Outlined" FullWidth="true" InputType="InputType.Password" Class="mb-4" />
             <MudButton OnClick="FazerCadastro" Color="Color.Primary" FullWidth="true" Class="mt-4">Inscreva-se</MudButton>
-
             @if (!string.IsNullOrEmpty(mensagemErroCadastro))
             {
-                <MudAlert Severity="Severity.Error" Class="mt-2">
-                    @mensagemErroCadastro
-                </MudAlert>
+                <MudAlert Severity="Severity.Error" Class="mt-2">@mensagemErroCadastro</MudAlert>
             }
             @if (!string.IsNullOrEmpty(mensagemSucessoCadastro))
             {
-                <MudAlert Severity="Severity.Success" Class="mt-2">
-                    @mensagemSucessoCadastro
-                </MudAlert>
+                <MudAlert Severity="Severity.Success" Class="mt-2">@mensagemSucessoCadastro</MudAlert>
             }
         </MudPaper>
     </div>
 </main>
 
 @code {
-    private int tamanhoFonte = 20;
-    private string tamanhoFontePx => $"{tamanhoFonte}px";
+    private int tamanhoFonte = 20; // Fonte base
+    private string tamanhoFontePx => $"{tamanhoFonte}px"; // Aplica dinamicamente ao estilo
 
     private string usuarioLogin;
     private string senhaLogin;
@@ -114,6 +64,10 @@
     private string mensagemErroLogin;
     private string mensagemErroCadastro;
     private string mensagemSucessoCadastro;
+
+    private bool isDarkMode = false;
+
+    private string darkModeIcon => isDarkMode ? Icons.Material.Filled.DarkMode : Icons.Material.Filled.LightMode;
 
     private void AumentarFonte()
     {
@@ -125,10 +79,17 @@
 
     private void DiminuirFonte()
     {
-        if (tamanhoFonte > 20) // Limita o tamanho mínimo
+        if (tamanhoFonte > 12) // Limita o tamanho mínimo
         {
             tamanhoFonte -= 2;
         }
+    }
+
+    private async Task ToggleDarkMode()
+    {
+        isDarkMode = !isDarkMode;
+        var modeClass = isDarkMode ? "dark-mode" : string.Empty;
+        await JSRuntime.InvokeVoidAsync("document.documentElement.setAttribute", "class", modeClass);
     }
 
     private async Task FazerLogin()
@@ -137,7 +98,7 @@
         if (sucesso)
         {
             mensagemErroLogin = null;
-            NavigationManager.NavigateTo("/home"); // Redireciona para a página Home após o login
+            NavigationManager.NavigateTo("/home");
         }
         else
         {

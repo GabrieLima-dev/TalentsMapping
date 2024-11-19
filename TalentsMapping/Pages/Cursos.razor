@@ -4,20 +4,18 @@
 <MudDataGrid T="Curso" Items="@cursos" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
     Hideable="true" RowClick="@RowClicked" SelectedItemsChanged="@SelectedItemsChanged">
     <ToolBarContent>
-        <MudText Typo="Typo.h6">Lista de Cursos</MudText>
+        <MudText Typo="Typo.h6">Cursos UFS</MudText>
         <MudSpacer />
-        <MudTextField @bind-Value="_searchString" Placeholder="Pesquisar" Adornment="Adornment.Start" Immediate="true"
+        <MudTextField @bind-Value="_searchString" Placeholder="Nome do Curso ou Nota de Corte" Adornment="Adornment.Start" Immediate="true"
             AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
     </ToolBarContent>
     <Columns>
-        <!-- Removido a coluna de ID -->
         <PropertyColumn Property="x => x.nome" Title="Nome do Curso" />
         <PropertyColumn Property="x => x.descricao" Title="Descrição" />
         <PropertyColumn Property="x => x.tarefas_diarias" Title="Tarefas Diárias" />
         <PropertyColumn Property="x => x.ambiente_trabalho" Title="Ambiente de Trabalho" />
         <PropertyColumn Property="x => x.faixa_salarial" Title="Faixa Salarial" />
-        
-        <PropertyColumn Property="x => x.media_corte" Title="Nota de Corte Média" />
+        <PropertyColumn Property="x => x.media_corte" Title="Nota de Corte ENEM 2023" />
     </Columns>
     <PagerContent>
         <MudDataGridPager T="Curso" />
@@ -37,11 +35,11 @@
         if (x.nome.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
             return true;
 
-        if (x.descricao.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
-            return true;
+        // if (x.descricao.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+        //     return true;
 
-        if ($"{x.tarefas_diarias} {x.ambiente_trabalho}".Contains(_searchString))
-            return true;
+        // if ($"{x.tarefas_diarias} {x.ambiente_trabalho}".Contains(_searchString))
+        //     return true;
 
         return false;
     };
@@ -64,11 +62,11 @@
     //Eventos (não será utilizado)
     void RowClicked(DataGridRowClickEventArgs<Curso> args)
     {
-        // Exemplo de log, mas não será mais utilizado
+        
     }
 
     void SelectedItemsChanged(HashSet<Curso> items)
     {
-        // Exemplo de log, mas não será mais utilizado
+        
     }
 }

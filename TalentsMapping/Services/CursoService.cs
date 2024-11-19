@@ -13,7 +13,7 @@ namespace TalentsMapping.Services
         public CursoService(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            Console.WriteLine($"BaseAddress: {_httpClient.BaseAddress}");
+            //Console.WriteLine($"BaseAddress: {_httpClient.BaseAddress}");
         }
 
         public async Task<List<Curso>> GetCursosAsync()
@@ -21,18 +21,18 @@ namespace TalentsMapping.Services
             try
             {
                 var url = "data/cursos.json";  // Caminho relativo ao BaseAddress
-                Console.WriteLine($"Buscando cursos de: {url}");
+                //Console.WriteLine($"Buscando cursos de: {url}");
 
                 var cursos = await _httpClient.GetFromJsonAsync<List<Curso>>(url);
 
-                if (cursos == null || cursos.Count == 0)
-                {
-                    Console.WriteLine("Nenhum curso encontrado.");
-                }
-                else
-                {
-                    Console.WriteLine($"Encontrados {cursos.Count} cursos.");
-                }
+                //if (cursos == null || cursos.Count == 0)
+                //{
+                //    Console.WriteLine("Nenhum curso encontrado.");
+                //}
+                //else
+                //{
+                //    Console.WriteLine($"Encontrados {cursos.Count} cursos.");
+                //}
 
                 return cursos ?? new List<Curso>();  // Retorna uma lista vazia se null
             }
