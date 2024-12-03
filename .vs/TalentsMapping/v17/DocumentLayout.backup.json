@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\wwwroot\\css\\cursos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\wwwroot\\css\\cursos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|c:\\users\\gabri\\onedrive\\desktop\\talentsmapping\\talentsmapping\\pages\\cursos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E65214-2C2E-44B9-B537-6E871E347E45}|TalentsMapping\\TalentsMapping.csproj|solutionrelative:talentsmapping\\pages\\cursos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Home.css",
-              "RelativeDocumentMoniker": "TalentsMapping\\wwwroot\\css\\Home.css",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Home.css",
-              "RelativeToolTip": "TalentsMapping\\wwwroot\\css\\Home.css",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwDYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-19T00:58:18.007Z",
+              "Title": "Cursos.razor",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Pages\\Cursos.razor",
+              "RelativeDocumentMoniker": "TalentsMapping\\Pages\\Cursos.razor",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Pages\\Cursos.razor",
+              "RelativeToolTip": "TalentsMapping\\Pages\\Cursos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T16:56:23.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "TalentsMapping\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\Pages\\Home.razor",
-              "RelativeToolTip": "TalentsMapping\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T00:55:30.81Z",
+              "Title": "Cursos.css",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Cursos.css",
+              "RelativeDocumentMoniker": "TalentsMapping\\wwwroot\\css\\Cursos.css",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Cursos.css",
+              "RelativeToolTip": "TalentsMapping\\wwwroot\\css\\Cursos.css",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T16:58:01.573Z",
               "EditorCaption": ""
             }
           ]

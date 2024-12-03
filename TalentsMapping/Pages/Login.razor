@@ -25,7 +25,7 @@
         <MudPaper Elevation="12" Class="p-4 floating-effect login-card">
             <div class="aura"></div>
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
-            <MudTextField @bind-Value="usuarioLogin" Label="Nome de Usuário" Variant="Variant.Outlined" FullWidth="true" Class="mb-3" />
+            <MudTextField @bind-Value="usuarioLogin" Label="Nome de Usuário" Variant="Variant.Outlined" FullWidth="true" Class="mb-3 nome-usuario-field" />
             <MudTextField @bind-Value="senhaLogin" Label="Senha" Variant="Variant.Outlined" FullWidth="true" InputType="InputType.Password" Class="mb-4" />
             <MudButton OnClick="FazerLogin" Color="Color.Primary" FullWidth="true" Class="mt-4">Entrar</MudButton>
             @if (!string.IsNullOrEmpty(mensagemErroLogin))

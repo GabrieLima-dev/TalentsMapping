@@ -7,8 +7,8 @@
     height: 100%;
     background: url('/background3d.jpg') no-repeat center center;
     background-size: cover;
-    filter: blur(4px);
-    opacity: 0.5;
+    filter: blur(20px);
+    opacity: 0.1;
     z-index: -2;
     pointer-events: none;
 }
@@ -36,7 +36,7 @@ footer {
     color: var(--footer-font-color); 
     text-align: center;
     padding: 1rem; 
-    position: fixed; 
+    position: relative; 
     bottom: 0;
     width: 100%; 
     z-index: 2; 
@@ -63,7 +63,7 @@ footer {
 
 /* Variáveis de modo claro */
 :root {
-    --background-gradient: linear-gradient(135deg, #f5f5f5, #eaeaea); /* Fundo claro */
+    --background-gradient: linear-gradient(135deg, #ffffff, #ffffff); /* Fundo claro */
     --font-color: #000000; /* Texto preto */
     --footer-background: transparent; /* Fundo transparente */
     --footer-font-color: #000000; /* Texto do rodapé claro */

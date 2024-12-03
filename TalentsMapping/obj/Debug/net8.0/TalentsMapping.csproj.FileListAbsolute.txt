@@ -1059,6 +1059,6 @@ C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\c
 C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\staticwebassets\msbuild.TalentsMapping.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\twjj7jwoua-mpb477zu2f.gz
-C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\bsl9faskez-eboqskzca5.gz
-C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\a1xoxvvk80-14l4khnkvb.gz
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\twjj7jwoua-qv0rbxgmx0.gz
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\bsl9faskez-ajv9av5obp.gz
+C:\Users\gabri\OneDrive\Desktop\TalentsMapping\TalentsMapping\obj\Debug\net8.0\compressed\a1xoxvvk80-ka983un74j.gz

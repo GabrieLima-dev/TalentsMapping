@@ -2,6 +2,7 @@ wwwroot\background3d.jpg
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\Cursos.css
 wwwroot\css\Home.css
 wwwroot\css\Login.css
 wwwroot\data\cursos.json

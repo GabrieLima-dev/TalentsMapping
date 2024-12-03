@@ -1,0 +1,81 @@
+﻿/* Cartão de curso */
+.course-card {
+    background: var(--card-background, #f1c4e8); /* Cor de fundo rosa */
+    color: var(--font-color);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, max-height 0.5s ease;
+    position: relative;
+    display:flex; /* Permite que o conteúdo ocupe todo o espaço do cartão */
+    flex-direction: column; /* Alinha o conteúdo na direção vertical */
+}
+
+    /* Título do curso e ícone */
+    .course-card .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem; /* Adiciona um pequeno padding */
+        background: var(--card-header-background, #e0aaff); /* Cor de fundo suave para o cabeçalho */
+        border-radius: 10px 10px 0 0;
+    }
+
+    .course-card h3 {
+        margin: 0;
+        font-size: 1.25rem;
+        color: var(--font-color);
+    }
+
+    .course-card p {
+        margin: 0.8rem 0;
+        padding: 0 2rem; /* Dá um pequeno espaçamento interno nas descrições */
+        color: var(--font-color);
+    }
+
+    /* Detalhes do curso expandidos */
+    .course-card.expanded .expanded-details {
+        opacity: 1;
+        visibility: visible;
+        max-height: 500px; /* Ajuste o valor conforme o conteúdo */
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        transition: opacity 0.3s ease, visibility 0.3s ease, max-height 0.3s ease;
+    }
+
+    /* Detalhes escondidos por padrão */
+    .course-card:not(.expanded) .expanded-details {
+        opacity: 0;
+        visibility: hidden;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease, max-height 0.3s ease;
+    }
+
+    /* Efeito de expansão/recolhimento */
+    .course-card .card-header button {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--font-color);
+    }
+
+    /* Efeito hover no cartão */
+    .course-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    }
+
+/* Para o modo escuro */
+.dark-mode .course-card {
+    background-color: #6b2d77; /* Cor de fundo rosa mais escura no modo escuro */
+    color: #ffffff; /* Texto branco no modo escuro */
+}
+
+    .dark-mode .course-card .card-header {
+        background-color: #9c5a9e; /* Cor de fundo do cabeçalho mais suave no modo escuro */
+    }

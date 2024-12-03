@@ -1,72 +1,134 @@
 ﻿@page "/cursos"
 @inject CursoService CursoService
+@inject IJSRuntime JSRuntime
 
-<MudDataGrid T="Curso" Items="@cursos" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
-    Hideable="true" RowClick="@RowClicked" SelectedItemsChanged="@SelectedItemsChanged">
-    <ToolBarContent>
-        <MudText Typo="Typo.h6">Cursos UFS</MudText>
-        <MudSpacer />
-        <MudTextField @bind-Value="_searchString" Placeholder="Nome do Curso ou Nota de Corte" Adornment="Adornment.Start" Immediate="true"
-            AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
-    </ToolBarContent>
-    <Columns>
-        <PropertyColumn Property="x => x.nome" Title="Nome do Curso" />
-        <PropertyColumn Property="x => x.descricao" Title="Descrição" />
-        <PropertyColumn Property="x => x.tarefas_diarias" Title="Tarefas Diárias" />
-        <PropertyColumn Property="x => x.ambiente_trabalho" Title="Ambiente de Trabalho" />
-        <PropertyColumn Property="x => x.faixa_salarial" Title="Faixa Salarial" />
-        <PropertyColumn Property="x => x.media_corte" Title="Nota de Corte ENEM 2023" />
-    </Columns>
-    <PagerContent>
-        <MudDataGridPager T="Curso" />
-    </PagerContent>
-</MudDataGrid>
+<PageTitle>Cursos</PageTitle>
+
+<link rel="stylesheet" href="./css/Cursos.css" />
+
+<div class="top-right-icons">
+    <MudIconButton Icon="@Icons.Material.Filled.ZoomIn" OnClick="AumentarFonte" Color="Color.Primary" Size="Size.Large" />
+    <MudIconButton Icon="@Icons.Material.Filled.ZoomOut" OnClick="DiminuirFonte" Color="Color.Primary" Size="Size.Large" />
+    <MudIconButton Icon="@darkModeIcon" OnClick="ToggleDarkMode" Color="Color.Primary" Size="Size.Large" />
+</div>
+
+<div class="search-bar">
+    <MudTextField @bind-Value="_searchString"
+                  Placeholder="Nome do Curso ou Nota de Corte"
+                  Adornment="Adornment.Start"
+                  Immediate="true"
+                  AdornmentIcon="@Icons.Material.Filled.Search"
+                  IconSize="Size.Medium"
+                  Class="mt-0"
+                  OnBlur="FiltrarCursos" />
+</div>
+
+<div class="courses-grid" style="font-size: @tamanhoFontePx;">
+    @if (cursosFiltrados.Any())
+    {
+        @foreach (var curso in cursosFiltrados.Take(itensCarregados))
+        {
+            <div class="course-card @(cursoSelecionadoId == curso.id ? "expanded" : "")">
+                <div class="card-header">
+                    <h3>@curso.nome</h3>
+                    <MudIconButton Icon="@GetIcon(curso.id)" OnClick="() => ToggleDetails(curso.id)" Color="Color.Primary" Size="Size.Small" />
+                </div>
+                <p>@curso.descricao</p>
+
+                @if (curso.id == cursoSelecionadoId)
+                {
+                    <div class="expanded-details">
+                        <p><strong>Tarefas Diárias:</strong> @curso.tarefas_diarias</p>
+                        <p><strong>Ambiente de Trabalho:</strong> @curso.ambiente_trabalho</p>
+                        <p><strong>Faixa Salarial:</strong> @curso.faixa_salarial</p>
+                        <p><strong>Nota de Corte ENEM 2023:</strong> @curso.media_corte</p>
+                    </div>
+                }
+            </div>
+        }
+    }
+    else
+    {
+        <p class="no-results">Nenhum curso encontrado.</p>
+    }
+</div>
+
+@if (itensCarregados < cursosFiltrados.Count)
+{
+    <MudButton Variant="Variant.Outlined" OnClick="CarregarMaisCursos" Color="Color.Primary" Class="load-more-btn">
+        Carregar Mais
+    </MudButton>
+}
 
 @code {
     private List<Curso> cursos = new List<Curso>();
-    private string _searchString;
+    private List<Curso> cursosFiltrados = new List<Curso>();
+    private string _searchString = string.Empty;
+    private int? cursoSelecionadoId = null;
+    private bool isDarkMode = false;
+    private int tamanhoFonte = 20;
+    private int itensCarregados = 10;
 
-    // Filtro rápido para pesquisar globalmente em várias colunas
-    private Func<Curso, bool> _quickFilter => x =>
-    {
-        if (string.IsNullOrWhiteSpace(_searchString))
-            return true;
-
-        if (x.nome.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
-            return true;
-
-        // if (x.descricao.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
-        //     return true;
-
-        // if ($"{x.tarefas_diarias} {x.ambiente_trabalho}".Contains(_searchString))
-        //     return true;
-
-        return false;
-    };
+    private string tamanhoFontePx => $"{tamanhoFonte}px";
+    private string darkModeIcon => isDarkMode ? Icons.Material.Filled.DarkMode : Icons.Material.Filled.LightMode;
 
     protected override async Task OnInitializedAsync()
     {
         cursos = await CursoService.GetCursosAsync();
-        // foreach (var curso in cursos)
-        // {
-        //     Console.WriteLine($"Curso: {curso.nome}, Faixa Salarial: {curso.faixa_salarial}");
-        // }
+        FiltrarCursos();
     }
 
-    // Método auxiliar para formatar a faixa salarial como uma string
-    private string FormatFaixaSalarial(string faixaSalarial)
+    private void AumentarFonte()
     {
-        return !string.IsNullOrEmpty(faixaSalarial) ? faixaSalarial : "N/A";
+        if (tamanhoFonte < 30)
+        {
+            tamanhoFonte += 2;
+        }
     }
 
-    //Eventos (não será utilizado)
-    void RowClicked(DataGridRowClickEventArgs<Curso> args)
+    private void DiminuirFonte()
     {
-        
+        if (tamanhoFonte > 10)
+        {
+            tamanhoFonte -= 2;
+        }
     }
 
-    void SelectedItemsChanged(HashSet<Curso> items)
+    private void ToggleDetails(int cursoId)
     {
-        
+        // Alterna entre expandir e recolher o curso clicado
+        cursoSelecionadoId = cursoSelecionadoId == cursoId ? null : cursoId;
+    }
+
+    private string GetIcon(int cursoId)
+    {
+        return cursoSelecionadoId == cursoId
+            ? Icons.Material.Filled.ExpandLess // Ícone de seta para cima
+            : Icons.Material.Filled.ExpandMore; // Ícone de seta para baixo
+    }
+
+    private void CarregarMaisCursos()
+    {
+        itensCarregados += 10;
+    }
+
+    private void FiltrarCursos()
+    {
+        // Filtro dos cursos
+        cursosFiltrados = cursos
+            .Where(c => string.IsNullOrWhiteSpace(_searchString) ||
+                        c.nome.Contains(_searchString, StringComparison.OrdinalIgnoreCase) ||  // Filtro por nome
+                        c.media_corte.ToString().Contains(_searchString))  // Filtro por media_corte
+            .ToList();
+
+        // Resetar a quantidade de itens carregados após o filtro
+        itensCarregados = 10;
+    }
+
+    private async Task ToggleDarkMode()
+    {
+        isDarkMode = !isDarkMode;
+        var modeClass = isDarkMode ? "dark-mode" : string.Empty;
+        await JSRuntime.InvokeVoidAsync("document.documentElement.setAttribute", "class", modeClass);
     }
 }

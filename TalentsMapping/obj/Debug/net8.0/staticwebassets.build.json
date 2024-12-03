@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w69UI5S7ItSG/79WdXRlJG2s6PIoyW6dMt95GBbP9kw=",
+  "Hash": "FVkxwijVo/Zh6fizbHUV42J2Q1k6RJiMZIMSaCgf1dk=",
   "Source": "TalentsMapping",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "14l4khnkvb",
-      "Integrity": "H9Q0Z65SGLTnc7jiBko4DBLlcySJbTAdPH4ruWWc8T0=",
+      "Fingerprint": "ka983un74j",
+      "Integrity": "DCwgJTjoTe9inDqZvGgK3lIa1zpzaxORzeo7a4GNXRs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -4378,8 +4378,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "eboqskzca5",
-      "Integrity": "ZmYCT2PRAAal06rCnHm+GFf7y3yX69gvO8M4OmzzoR8=",
+      "Fingerprint": "ajv9av5obp",
+      "Integrity": "GoKuV/aU+7bcGCl/aRDV/qqjVDKrxOaiouE42bS220w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\TalentsMapping.pdb"
@@ -4399,8 +4399,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "mpb477zu2f",
-      "Integrity": "tljWsmk6CA3Mez3AZ0j6ArYllDMZl+6uUBoceM+H/Wg=",
+      "Fingerprint": "qv0rbxgmx0",
+      "Integrity": "yjMYwr/ZbB2uLlB6oKX0Q8l4eAhpUxlcEl3Dg9y2i0k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\webcil\\TalentsMapping.wasm"
@@ -5435,7 +5435,7 @@
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Specialized.wasm"
     },
     {
-      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\a1xoxvvk80-14l4khnkvb.gz",
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\a1xoxvvk80-ka983un74j.gz",
       "SourceId": "TalentsMapping",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\",
@@ -5449,8 +5449,8 @@
       "RelatedAsset": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kn5kh9mw2v",
-      "Integrity": "oC4TgHj3Y1INsYzvKs/twOL24EOZVonBeHtnnVO8OzE=",
+      "Fingerprint": "v76uo0969y",
+      "Integrity": "+6IqZQ09JcNpK4ghAKOQFJ/u8jcK54n4hmIH6y+r80g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5666,7 +5666,7 @@
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.wasm"
     },
     {
-      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\bsl9faskez-eboqskzca5.gz",
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\bsl9faskez-ajv9av5obp.gz",
       "SourceId": "TalentsMapping",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\",
@@ -5680,8 +5680,8 @@
       "RelatedAsset": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TalentsMapping.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3mamfsw4do",
-      "Integrity": "xcG9s3Hv3vyyLGmDMiL5oLiEweSi4mOy3OJvjXJ5QU0=",
+      "Fingerprint": "5ilv0x27iq",
+      "Integrity": "Y31u0YKUu4nexofKFIAzHwqipB2PVPI4OPhOMu5sygk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TalentsMapping.pdb"
@@ -7976,7 +7976,7 @@
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.wasm"
     },
     {
-      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\twjj7jwoua-mpb477zu2f.gz",
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\twjj7jwoua-qv0rbxgmx0.gz",
       "SourceId": "TalentsMapping",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\",
@@ -7990,8 +7990,8 @@
       "RelatedAsset": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TalentsMapping.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "r0nfkilil2",
-      "Integrity": "tfHqLRUhppT5kfY5+IH7wcu8ZzesEX+kJ01gCUR3bFc=",
+      "Fingerprint": "q3c08md8fu",
+      "Integrity": "Ri30OB0km8NUNqG6/tYDwC0AaAkf65lfNfJ0aX9JqV4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TalentsMapping.wasm"
@@ -8921,6 +8921,27 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Cursos.css",
+      "SourceId": "TalentsMapping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/Cursos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k18zdi42zs",
+      "Integrity": "iHe+KVeKVfGHc7lqJO18toze+B4NmGIatPAdm9HxWZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Cursos.css"
+    },
+    {
       "Identity": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Home.css",
       "SourceId": "TalentsMapping",
       "SourceType": "Discovered",
@@ -8935,8 +8956,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bzgvzjk7in",
-      "Integrity": "SWkvzv3vM67AZwCm009PwvCdXCzJO6mpioK2jnl7W2c=",
+      "Fingerprint": "sf20d30zr5",
+      "Integrity": "qBrx/Oeu0vP8Cba5BVOq6aTbwAWnlrjah4yBBZpM+2E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Home.css"
@@ -8956,8 +8977,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bk0zib2jdc",
-      "Integrity": "myslMVU5zRwwRIS11LDSkudMYDiR3qDKN/H8PszbCs8=",
+      "Fingerprint": "venwquck5f",
+      "Integrity": "eW/MCvhZCWXQrCeaKtKY8mPbAhXnjddkW3uPsM74LCc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
@@ -9204,11 +9225,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H9Q0Z65SGLTnc7jiBko4DBLlcySJbTAdPH4ruWWc8T0=\""
+          "Value": "\"DCwgJTjoTe9inDqZvGgK3lIa1zpzaxORzeo7a4GNXRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 01:15:54 GMT"
+          "Value": "Tue, 03 Dec 2024 17:07:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9218,18 +9239,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H9Q0Z65SGLTnc7jiBko4DBLlcySJbTAdPH4ruWWc8T0="
+          "Value": "sha256-DCwgJTjoTe9inDqZvGgK3lIa1zpzaxORzeo7a4GNXRs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\a1xoxvvk80-14l4khnkvb.gz",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\a1xoxvvk80-ka983un74j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000111482720"
+          "Quality": "0.000111507583"
         }
       ],
       "ResponseHeaders": [
@@ -9239,15 +9260,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8969"
+          "Value": "8967"
         },
         {
           "Name": "ETag",
-          "Value": "\"oC4TgHj3Y1INsYzvKs/twOL24EOZVonBeHtnnVO8OzE=\""
+          "Value": "\"+6IqZQ09JcNpK4ghAKOQFJ/u8jcK54n4hmIH6y+r80g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:43 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9267,19 +9288,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"H9Q0Z65SGLTnc7jiBko4DBLlcySJbTAdPH4ruWWc8T0=\""
+          "Value": "W/\"DCwgJTjoTe9inDqZvGgK3lIa1zpzaxORzeo7a4GNXRs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H9Q0Z65SGLTnc7jiBko4DBLlcySJbTAdPH4ruWWc8T0="
+          "Value": "sha256-DCwgJTjoTe9inDqZvGgK3lIa1zpzaxORzeo7a4GNXRs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\a1xoxvvk80-14l4khnkvb.gz",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\a1xoxvvk80-ka983un74j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9288,7 +9309,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8969"
+          "Value": "8967"
         },
         {
           "Name": "Content-Type",
@@ -9296,11 +9317,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oC4TgHj3Y1INsYzvKs/twOL24EOZVonBeHtnnVO8OzE=\""
+          "Value": "\"+6IqZQ09JcNpK4ghAKOQFJ/u8jcK54n4hmIH6y+r80g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:43 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9318,7 +9339,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oC4TgHj3Y1INsYzvKs/twOL24EOZVonBeHtnnVO8OzE="
+          "Value": "sha256-+6IqZQ09JcNpK4ghAKOQFJ/u8jcK54n4hmIH6y+r80g="
         }
       ]
     },
@@ -37281,7 +37302,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44028"
+          "Value": "45704"
         },
         {
           "Name": "Content-Type",
@@ -37289,11 +37310,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZmYCT2PRAAal06rCnHm+GFf7y3yX69gvO8M4OmzzoR8=\""
+          "Value": "\"GoKuV/aU+7bcGCl/aRDV/qqjVDKrxOaiouE42bS220w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 01:15:54 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37303,18 +37324,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZmYCT2PRAAal06rCnHm+GFf7y3yX69gvO8M4OmzzoR8="
+          "Value": "sha256-GoKuV/aU+7bcGCl/aRDV/qqjVDKrxOaiouE42bS220w="
         }
       ]
     },
     {
       "Route": "_framework/TalentsMapping.pdb",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\bsl9faskez-eboqskzca5.gz",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\bsl9faskez-ajv9av5obp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000029665668"
+          "Quality": "0.000028604119"
         }
       ],
       "ResponseHeaders": [
@@ -37324,15 +37345,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33708"
+          "Value": "34959"
         },
         {
           "Name": "ETag",
-          "Value": "\"xcG9s3Hv3vyyLGmDMiL5oLiEweSi4mOy3OJvjXJ5QU0=\""
+          "Value": "\"Y31u0YKUu4nexofKFIAzHwqipB2PVPI4OPhOMu5sygk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:42 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37352,19 +37373,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZmYCT2PRAAal06rCnHm+GFf7y3yX69gvO8M4OmzzoR8=\""
+          "Value": "W/\"GoKuV/aU+7bcGCl/aRDV/qqjVDKrxOaiouE42bS220w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZmYCT2PRAAal06rCnHm+GFf7y3yX69gvO8M4OmzzoR8="
+          "Value": "sha256-GoKuV/aU+7bcGCl/aRDV/qqjVDKrxOaiouE42bS220w="
         }
       ]
     },
     {
       "Route": "_framework/TalentsMapping.pdb.gz",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\bsl9faskez-eboqskzca5.gz",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\bsl9faskez-ajv9av5obp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -37373,7 +37394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33708"
+          "Value": "34959"
         },
         {
           "Name": "Content-Type",
@@ -37381,11 +37402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xcG9s3Hv3vyyLGmDMiL5oLiEweSi4mOy3OJvjXJ5QU0=\""
+          "Value": "\"Y31u0YKUu4nexofKFIAzHwqipB2PVPI4OPhOMu5sygk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:42 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37403,7 +37424,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xcG9s3Hv3vyyLGmDMiL5oLiEweSi4mOy3OJvjXJ5QU0="
+          "Value": "sha256-Y31u0YKUu4nexofKFIAzHwqipB2PVPI4OPhOMu5sygk="
         }
       ]
     },
@@ -37418,7 +37439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64277"
+          "Value": "65813"
         },
         {
           "Name": "Content-Type",
@@ -37426,11 +37447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tljWsmk6CA3Mez3AZ0j6ArYllDMZl+6uUBoceM+H/Wg=\""
+          "Value": "\"yjMYwr/ZbB2uLlB6oKX0Q8l4eAhpUxlcEl3Dg9y2i0k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:42 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37440,18 +37461,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tljWsmk6CA3Mez3AZ0j6ArYllDMZl+6uUBoceM+H/Wg="
+          "Value": "sha256-yjMYwr/ZbB2uLlB6oKX0Q8l4eAhpUxlcEl3Dg9y2i0k="
         }
       ]
     },
     {
       "Route": "_framework/TalentsMapping.wasm",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\twjj7jwoua-mpb477zu2f.gz",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\twjj7jwoua-qv0rbxgmx0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000041649313"
+          "Quality": "0.000040961783"
         }
       ],
       "ResponseHeaders": [
@@ -37461,15 +37482,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24009"
+          "Value": "24412"
         },
         {
           "Name": "ETag",
-          "Value": "\"tfHqLRUhppT5kfY5+IH7wcu8ZzesEX+kJ01gCUR3bFc=\""
+          "Value": "\"Ri30OB0km8NUNqG6/tYDwC0AaAkf65lfNfJ0aX9JqV4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:42 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37489,19 +37510,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tljWsmk6CA3Mez3AZ0j6ArYllDMZl+6uUBoceM+H/Wg=\""
+          "Value": "W/\"yjMYwr/ZbB2uLlB6oKX0Q8l4eAhpUxlcEl3Dg9y2i0k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tljWsmk6CA3Mez3AZ0j6ArYllDMZl+6uUBoceM+H/Wg="
+          "Value": "sha256-yjMYwr/ZbB2uLlB6oKX0Q8l4eAhpUxlcEl3Dg9y2i0k="
         }
       ]
     },
     {
       "Route": "_framework/TalentsMapping.wasm.gz",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\twjj7jwoua-mpb477zu2f.gz",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\obj\\Debug\\net8.0\\compressed\\twjj7jwoua-qv0rbxgmx0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -37510,7 +37531,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24009"
+          "Value": "24412"
         },
         {
           "Name": "Content-Type",
@@ -37518,11 +37539,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tfHqLRUhppT5kfY5+IH7wcu8ZzesEX+kJ01gCUR3bFc=\""
+          "Value": "\"Ri30OB0km8NUNqG6/tYDwC0AaAkf65lfNfJ0aX9JqV4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:59:42 GMT"
+          "Value": "Tue, 03 Dec 2024 17:03:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37540,7 +37561,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tfHqLRUhppT5kfY5+IH7wcu8ZzesEX+kJ01gCUR3bFc="
+          "Value": "sha256-Ri30OB0km8NUNqG6/tYDwC0AaAkf65lfNfJ0aX9JqV4="
         }
       ]
     },
@@ -38010,8 +38031,8 @@
       ]
     },
     {
-      "Route": "css/Home.bzgvzjk7in.css",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Home.css",
+      "Route": "css/Cursos.css",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Cursos.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -38020,7 +38041,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1806"
+          "Value": "2649"
         },
         {
           "Name": "Content-Type",
@@ -38028,11 +38049,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SWkvzv3vM67AZwCm009PwvCdXCzJO6mpioK2jnl7W2c=\""
+          "Value": "\"iHe+KVeKVfGHc7lqJO18toze+B4NmGIatPAdm9HxWZI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 01:15:33 GMT"
+          "Value": "Tue, 03 Dec 2024 17:07:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iHe+KVeKVfGHc7lqJO18toze+B4NmGIatPAdm9HxWZI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Cursos.k18zdi42zs.css",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Cursos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iHe+KVeKVfGHc7lqJO18toze+B4NmGIatPAdm9HxWZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 17:07:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38042,15 +38100,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bzgvzjk7in"
+          "Value": "k18zdi42zs"
         },
         {
           "Name": "label",
-          "Value": "css/Home.css"
+          "Value": "css/Cursos.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SWkvzv3vM67AZwCm009PwvCdXCzJO6mpioK2jnl7W2c="
+          "Value": "sha256-iHe+KVeKVfGHc7lqJO18toze+B4NmGIatPAdm9HxWZI="
         }
       ]
     },
@@ -38065,7 +38123,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1806"
+          "Value": "1879"
         },
         {
           "Name": "Content-Type",
@@ -38073,11 +38131,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SWkvzv3vM67AZwCm009PwvCdXCzJO6mpioK2jnl7W2c=\""
+          "Value": "\"qBrx/Oeu0vP8Cba5BVOq6aTbwAWnlrjah4yBBZpM+2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 01:15:33 GMT"
+          "Value": "Tue, 03 Dec 2024 16:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38087,13 +38145,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SWkvzv3vM67AZwCm009PwvCdXCzJO6mpioK2jnl7W2c="
+          "Value": "sha256-qBrx/Oeu0vP8Cba5BVOq6aTbwAWnlrjah4yBBZpM+2E="
         }
       ]
     },
     {
-      "Route": "css/Login.bk0zib2jdc.css",
-      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Login.css",
+      "Route": "css/Home.sf20d30zr5.css",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -38102,7 +38160,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2695"
+          "Value": "1879"
         },
         {
           "Name": "Content-Type",
@@ -38110,11 +38168,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"myslMVU5zRwwRIS11LDSkudMYDiR3qDKN/H8PszbCs8=\""
+          "Value": "\"qBrx/Oeu0vP8Cba5BVOq6aTbwAWnlrjah4yBBZpM+2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:17:53 GMT"
+          "Value": "Tue, 03 Dec 2024 16:56:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38124,15 +38182,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bk0zib2jdc"
+          "Value": "sf20d30zr5"
         },
         {
           "Name": "label",
-          "Value": "css/Login.css"
+          "Value": "css/Home.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-myslMVU5zRwwRIS11LDSkudMYDiR3qDKN/H8PszbCs8="
+          "Value": "sha256-qBrx/Oeu0vP8Cba5BVOq6aTbwAWnlrjah4yBBZpM+2E="
         }
       ]
     },
@@ -38147,7 +38205,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2695"
+          "Value": "2691"
         },
         {
           "Name": "Content-Type",
@@ -38155,11 +38213,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"myslMVU5zRwwRIS11LDSkudMYDiR3qDKN/H8PszbCs8=\""
+          "Value": "\"eW/MCvhZCWXQrCeaKtKY8mPbAhXnjddkW3uPsM74LCc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Nov 2024 00:17:53 GMT"
+          "Value": "Tue, 03 Dec 2024 03:07:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38169,7 +38227,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-myslMVU5zRwwRIS11LDSkudMYDiR3qDKN/H8PszbCs8="
+          "Value": "sha256-eW/MCvhZCWXQrCeaKtKY8mPbAhXnjddkW3uPsM74LCc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.venwquck5f.css",
+      "AssetFile": "C:\\Users\\gabri\\OneDrive\\Desktop\\TalentsMapping\\TalentsMapping\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eW/MCvhZCWXQrCeaKtKY8mPbAhXnjddkW3uPsM74LCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 03:07:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "venwquck5f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eW/MCvhZCWXQrCeaKtKY8mPbAhXnjddkW3uPsM74LCc="
         }
       ]
     },
